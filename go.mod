@@ -1,3 +1,3 @@
-module sandbox
+module github.com/thanm/sandbox
 
-go 1.20
+go 1.19
