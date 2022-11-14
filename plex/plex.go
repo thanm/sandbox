@@ -12,6 +12,10 @@ func Multiple() int {
 	return 3
 }
 
+func Composite() int {
+	return Single() + Single()
+}
+
 func Dead() int {
 	defer func() { V -= 1 }()
 	return -1
